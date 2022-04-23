@@ -8,4 +8,3 @@ function A=trapezoidal(f,h,a,b)
     end
     A=I*sum;
 end
-
