@@ -1,6 +1,6 @@
 f=input('Enter function:');
-x0=input('Enter initial x: ');
-y0=input('Enter initial y: ');
+x0=input('Enter x0: ');
+y0=input('Enter y0: ');
 h=input('Enter h: ');
 X=input('Enter required x: ');
 x=x0;
