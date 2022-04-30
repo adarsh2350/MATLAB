@@ -10,7 +10,7 @@ for i=1:n
 end
 for i=2:n
     for j=1:n-i+1
-        X(j,i)=((4/3)*X(j+1,i-1))-((1/3)*X(j,i-1));
+        X(j,i)=(((4^(i-1))*X(j+1,i-1))-(X(j,i-1)))/(4^(i-1) - 1);
     end
 end
 A=X
