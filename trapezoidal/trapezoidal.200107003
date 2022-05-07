@@ -1,0 +1,16 @@
+a=input('enter your left boundary a: ');
+b=input('Enter your right boundary b: ');
+h=input('Enter segement length h: ');
+f=input('Enter your function: ');
+e=input('Enter e :');
+
+t=trap(f,a,b,h);
+fprintf('Given integration by traphezoidal method is equal to %i\n', t)
+
+function t= trap(f,a,b,h)
+t=f(a)+f(b);
+for i=a+h:h:b-h
+    t=t+2*f(i);
+end
+t=t*h/2;
+end
