@@ -1,4 +1,4 @@
-%%RK 4th order
+%%RK 4th Order
 function [Y] = RK_Fourth_200107003(fxy, step, a, b, yi)
 
 format shortG;
